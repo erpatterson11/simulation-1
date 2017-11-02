@@ -1,0 +1,35 @@
+:root {
+  --red-dark: #ab2a19;
+  --red-normal: #d34735;
+  --red-light: #ed6b5a;
+  --red-lightest: #ffb8af;
+  --grey: #d8d8d8;
+  --green: #40f99b;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}

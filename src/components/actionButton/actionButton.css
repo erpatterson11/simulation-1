@@ -1,0 +1,38 @@
+.button {
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button-green {
+    background-color: var(--green);
+    margin-bottom: 20px;
+    width: 524px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Open Sans, sans-serif;
+}
+
+.button-grey {
+    background-color: var(--grey);
+    font-weight: 700;
+    height: auto;
+    font-size: 30px;
+    border: none;
+    width: 200px;
+    border-radius: 3px;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.bin-button-container {
+    display: flex;
+    justify-content: space-between;
+}

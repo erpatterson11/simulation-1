@@ -1,0 +1,1 @@
+select * from bins where bin = $1 and shelf = $2;

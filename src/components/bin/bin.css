@@ -1,0 +1,30 @@
+.bin-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-weight: 700;
+}
+
+.bin-header-text {
+    font-family: Open Sans,sans-serif;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.bin-pic {
+    display: block;
+    min-width: 200px;
+}
+
+.bin-input {
+    border: 1px solid var(--red-dark);
+    border-radius: 3px;
+    padding: 12px;
+    min-width: 500px;
+    width: auto;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    outline: none;
+}

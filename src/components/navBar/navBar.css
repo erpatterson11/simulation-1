@@ -1,0 +1,37 @@
+.navbar-container {
+    width: 100vw;
+    height: 100px;
+    background-color: var(--red-dark);
+    display: flex;
+    align-items: center;
+    font-family: Open sans, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: 150px;
+    height: 100%;
+}
+
+.logo-button {
+    background-color: var(--red-dark);
+    text-transform: uppercase;
+}
+
+.shelf-button {
+    background-color: var(--red-normal);
+}
+
+.bin-button {
+    background-color: var(--red-light);
+}
+
+.bin-last-button {
+    max-width: 100%;
+}

@@ -1,0 +1,32 @@
+.create-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Open Sans, sans-serif;
+    padding-left: 10px;
+}
+
+.create-container > * {
+    width: 528px;
+}
+
+.create-input {
+    border: 1px solid var(--red-dark);
+    border-radius: 3px;
+    padding: 12px;
+    min-width: 500px;
+    width: auto;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.create-header-text {
+
+}
+

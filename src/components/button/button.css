@@ -1,0 +1,41 @@
+.button {
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button-red {
+    background-color: var(--red-normal);
+    margin-bottom: 20px;
+    width: 500px;
+    height: 60px;
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Open Sans, sans-serif;
+    padding-right: 230px;
+}
+
+.button-light-red {
+    background-color: var(--red-light);
+    margin-bottom: 20px;
+    width: 500px;
+    height: 60px;
+    color: var(--white);
+    font-size: 30px;
+}
+
+.button-lightest-red {
+    background-color: var(--red-lightest);
+    margin-bottom: 20px;
+    width: 500px;
+    height: 60px;
+    color: var(--white);
+    font-size: 30px;
+}
